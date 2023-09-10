@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>User Profile Page</title>
+</head>
+<body>
+    <main id="container">
+        <!-- <p data-testid="myTrack">Frontend</p> -->
+        <div id="profile-card">
+            <!-- <div id="header">
+                <p class="headerText">Profile</p>
+            </div> -->
+            <div id="caption">
+                <div class="image-wrapper">
+                    <img src="/assets/images/photo.jpg" alt="morpheus" data-testid="slackDisplayImage">
+                </div>
+                <div class="username-wrapper">
+                    <p id="slackName" data-testid="slackUserName">Morpheus</p>
+                </div>
+            </div>
+            <div id="details">
+                <div class="info">
+                    <span class="label">1️⃣</span>
+                    <p id="track" data-testid="myTrack">Frontend</p>
+                </div>
+                <div class="info">
+                    <span class="label">📅</span>
+                    <p id="currentDay" data-testid="currentDayOfTheWeek"></p>
+                </div>
+                <div class="info">
+                    <span class="label">🕐</span>
+                    <p id="currentTime" data-testid="currentUTCTime"></p>
+                </div>
+                <div class="info">
+                    <span class="label">💻</span>
+                    <a id="githubLink" href="https://github.com/ImieboGodson/profile-page" data-testid="githubURL">Github link</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
